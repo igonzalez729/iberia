@@ -1,0 +1,127 @@
+/* Table */
+@media screen and (min-width: 767px) {
+
+    .cabecera-idioma1 {
+      display: none;
+    }
+    .cabecera-idioma {
+      width: 100%;
+      height: 33px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: #898989;
+    }
+    .ayuda-buscador {
+      height: 100%;
+    }
+    .ayuda-buscador-ayuda {
+      display: inherit;
+      float: left;
+      margin-top: 10px;
+    }
+    .ayuda {
+      color: red;
+      text-decoration: none;
+    }
+    .ayuda-buscador-form {
+      float: right;
+    }
+    .menu {
+      width: 100%;
+      height: 100%;
+      display: table;
+    }
+    .menu-iberia1-nav {
+      width: 73%;
+      height: 100%;
+      padding: 0px;
+    }
+    .menu .activado {
+      display: none;
+    }
+    .menu li{
+      list-style: none;
+      font-size: 1em;
+      display: table-cell;
+      vertical-align: middle;
+      letter-spacing: inherit;
+      padding-top: 0px;
+      padding-left: 4px;
+      padding-right: 4px;
+    }
+    .sub-menu {
+      float: right;
+      display: inline;
+      position: inherit;
+      background-color: inherit;
+      font-size: 0.9em;
+    }
+    .menu-iberia-linea-vertical1 {
+      border-right: 1px solid #7C7C7C;
+      border-left: 1px solid #7C7C7C;
+    }
+    .menu-iberia-linea-vertical1-iberiaPlus1 {
+      border-right: 1px solid #7C7C7C;
+    }
+    .menu-iberia ul li a{
+      color: white;
+    }
+    .menu-iberia ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 100%;
+      background: rgba(231,56,39,1);
+      background: -moz-linear-gradient(top, rgba(231,56,39,1) 3%, rgba(211,18,34,1) 26%, rgba(209,15,34,1) 28%, rgba(194,11,33,1) 66%, rgba(173,30,27,1) 88%, rgba(161,40,24,1) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(3%, rgba(231,56,39,1)), color-stop(26%, rgba(211,18,34,1)), color-stop(28%, rgba(209,15,34,1)), color-stop(66%, rgba(194,11,33,1)), color-stop(88%, rgba(173,30,27,1)), color-stop(100%, rgba(161,40,24,1)));
+      background: -webkit-linear-gradient(top, rgba(231,56,39,1) 3%, rgba(211,18,34,1) 26%, rgba(209,15,34,1) 28%, rgba(194,11,33,1) 66%, rgba(173,30,27,1) 88%, rgba(161,40,24,1) 100%);
+      background: -o-linear-gradient(top, rgba(231,56,39,1) 3%, rgba(211,18,34,1) 26%, rgba(209,15,34,1) 28%, rgba(194,11,33,1) 66%, rgba(173,30,27,1) 88%, rgba(161,40,24,1) 100%);
+      background: -ms-linear-gradient(top, rgba(231,56,39,1) 3%, rgba(211,18,34,1) 26%, rgba(209,15,34,1) 28%, rgba(194,11,33,1) 66%, rgba(173,30,27,1) 88%, rgba(161,40,24,1) 100%);
+      background: linear-gradient(to bottom, rgba(231,56,39,1) 3%, rgba(211,18,34,1) 26%, rgba(209,15,34,1) 28%, rgba(194,11,33,1) 66%, rgba(173,30,27,1) 88%, rgba(161,40,24,1) 100%);
+    }
+    .figureLogoTipoIberia1 {
+      width: 20%;
+      height: 47px;
+      margin-top: 21px;
+      margin-bottom: 18px;
+      margin-left: 49px;
+    }
+    .viaja1  {
+      width: 100%;
+    }
+    .tusVuelos1 {
+      width: 100%;
+    }
+    .antesDeViajar1 {
+      width: 100%;
+    }
+    .experienciaIberia1 {
+      width: 100%;
+    }
+    .empresas1 {
+      width: 100%;
+    }
+    .iberiaPlus1 {
+      width: 100%;
+    }
+    .section2-hr {
+      display: none;
+    }
+    .section2 ul {
+      display: flex;
+      padding-top: 0px;
+    }
+    .section2 ul li {
+      width: 33%;
+    }
+    .etiquetaPlazasDisponibles {
+      margin-top: 10px;
+      margin-bottom: auto;
+    }
+    .section2-linea-vertical {
+      border-left: 1px solid;
+      border-right: 1px solid;
+    }
+}

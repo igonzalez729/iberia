@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" media="screen and (min-width:319px)" href="css/mq-mobile.css">
+    <link rel="stylesheet" media="screen and (min-width:991px)" href="css/mq-mobile-tablet.css">
+    <link rel="stylesheet" media="screen and (min-width:767px)" href="css/mq-table.css">
+    <link rel="stylesheet" media="screen and (min-width:991px)" href="css/mq-desktop.css">-->
+    <title>^ProyectoIberia</title>
+</head>
+<body class="body">
+    <header>
+        <div class="cabecera-idioma1">
+            <div class="cabecera-idioma1-idiomaAccesoRegistro">
+                <div class="cabecera-idioma1-idioma1">
+                    <span class="glyphicon glyphicon-globe"></span>
+                    <select class="idioma1" name="Idioma">
+                        <option value="0">España - Español</option>
+                        <option value="1"><a href="#">United kingdom - English</a></option>
+                    </select>
+                </div>
+                <div class="acceso-registro1">
+                    <span class="glyphicon glyphicon-user"></span>
+                    <a href="#">Acceder</a>
+                    <a href="#">Registrarse</a>
+                </div>
+            </div>
+            <div class="ayuda-buscador1">
+                <form>
+                    <div class="form-busqueda1">
+                        <label  class="etiqueta1" class="placeholder" for="search"><span id="lupaBuscador1" class="glyphicon glyphicon-search lupaBuscar"></span></label>
+                        <input class="buscador1" name="search" type="search" placeholder="Escribe aquí tus dudas"><!--<span class="glyphicon glyphicon-search lupaBuscar"></span>-->
+                    </div>
+                </form>
+            </div>
+        </div>
+
+      <div class="cabecera-idioma">
+        <div>
+            <span class="glyphicon glyphicon-globe"></span>
+            <select class="idioma" name="Idioma">
+                <option value="0">España - Español</option>
+                <option value="1"><a href="#">United kingdom - English</a></option>
+            </select>
+        </div>
+        <div class="ayuda-buscador">
+          <div class="ayuda-buscador-ayuda">
+            <p>¿Necesitas <a class="ayuda" href="#">Ayuda?</a></p>
+          </div>
+          <form class="ayuda-buscador-form">
+            <div class="form-busqueda">
+              <label  class="etiqueta" class="placeholder" for="search"><span id="lupaBuscador" class="glyphicon glyphicon-search lupaBuscar"></span></label>
+              <input class="buscador" name="search" type="search" placeholder="Escribe aquí tus dudas"><!--<span class="glyphicon glyphicon-search lupaBuscar"></span>-->
+            </div>
+          </form>
+        </div>
+        <div class="acceso-registro">
+            <span class="glyphicon glyphicon-user"></span>
+            <a href="#">Acceder</a>
+            <a href="#">Registrarse</a>
+        </div>
+      </div>
+      <div class="menu-iberia1">
+        <figure class="figureLogoTipoIberia1"><img class="logoTipoIberia1" src="images/logoIberia.png" alt="Imagen del logotipo de Iberia"></figure>
+        <nav class="menu-iberia1-nav">
+          <ul class="menu">
+            <li><a class="activado" href="#">Menu</a>
+              <ul class="sub-menu">
+                <li class="menu-iberia-linea-vertical1"><a class="viaja1" href="#">Viaja</a></li>
+                <li><a class="tusVuelos1" href="#">Tus vuelos</a></li>
+                <li class="menu-iberia-linea-vertical1"><a class="antesDeViajar1" href="#">Antes de viajar</a></li>
+                <li><a class="experienciaIberia1"href="#">Experiencia Iberia</a></li>
+                <li class="menu-iberia-linea-vertical1"><a class="empresas1" href="#">Empresas</a></li>
+                <li><a class="menu-iberia-linea-vertical-iberiaPlus1" href="#">Iberia Plus</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <figure class="figureBolaOneWorld1"><img class="bolaOneWorld1" src="images/bolaOneWorld.png" alt="Bola OneWorld"></figure>
+      </div>
+    </header>
+    <main class="main">
+        <h2>Cambia tu vuelo</h2>
+     <section class="section1">
+        <div class="section1-cabecera">
+            <div class="section1-cabecera-puenteAereo">
+                <h3>Madrid - Barcelona</h3>
+                <p>Puente Aéreo Reserva</p>
+            </div>
+            <div class="section1-cabecera-fechaVuelos">
+                <h4>Vuelos el 23/03/2017</h4>
+            </div>
+        </div>
+        <div class="section1-boton-cerrar">
+            <button type="button">Cerrar</button><hr class="hr">
+        </div>
+        <div class="section1-selectores">
+            <div class="section1-selectores-fecha">
+                <label for="fecha">FECHA:</label>
+                <select class="fecha" name="Fecha">
+                  <option value="1">23/03/2017</option>
+                </select>
+            </div>
+            <div class="section1-selectores-franjaHoraria">
+              <select class="frajaHoraria" name="Franja horaria">
+                <option selected value="0">Franja horaria</option>
+              </select>
+            </div>
+            <div class="section1-selectores-boton-buscar">
+              <button class="boton-buscar" type="button">Buscar</button>
+            </div>
+        </div>
+     </section>
+     <section class="section2">
+         <div class="section2-lista">
+             <div class="section2-lista-horarios">
+                <ul>
+                    <li><a href="#">Todos los horarios</a></li>
+                    <div class="section2-hr"><hr></div>
+                    <li class="section2-linea-vertical"><a href="#">Horarios de mañana</a></li>
+                    <div class="section2-hr"><hr></div>
+                    <li><a href="#">Horarios de tarde</a></li>
+                    <div class="section2-hr"><hr></div>
+                </ul>
+            </div>
+            <div class="section2-lista-checkbox">
+                <label class="etiquetaPlazasDisponibles"for="plazasDisponibles"><input type="checkbox" name="plazasDisponibles" class="plazasDisponibles">Mostar solo vuelos con plazas disponibles</label>
+            </div>
+         </div>
+         <div class="section2-tabla-scroll">
+
+             <table class="section2-tabla">
+             <tr>
+                <th>Salida<span class="glyphicon glyphicon-triangle-bottom"></span></th>
+                <th>Llegada<span class="glyphicon glyphicon-triangle-bottom"></span></th>
+                <th>Operado por<span class="glyphicon glyphicon-triangle-bottom"></span></th>
+                <th>Plazas<span class="glyphicon glyphicon-triangle-bottom"></span></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>08:00</td>
+                <td>9:00</td>
+                <td><figure class="figureTablaLogoIberia"><img class="tablaLogoIberia" src="images/tablaLogoIberiaActivado.png" alt="Imagen del logo de Iberia"></figure></td>
+                <td>Disponibles</td>
+                <td><button class="botonSeleccionarActivado">Seleccionar</button></td>
+            </tr>
+            <tr>
+                <td>9:00</td>
+                <td>10:00</td>
+                <td><figure class="figureTablaLogoIberia"><img class="tablaLogoIberia" src="images/tablaLogoIberiaActivado.png" alt="Imagen del logo de Iberia"></figure></td>
+                <td>1</td>
+                <td><button class="botonSeleccionarActivado">Seleccionar</button></td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td>11:00</td>
+                <td><figure class="figureTablaLogoIberia"><img class="tablaLogoIberia" src="images/tablaLogoIberiaActivado.png" alt="Imagen del logo de Iberia"></figure></td>
+                <td>4</td>
+                <td><button class="botonSeleccionarActivado">Seleccionar</button></td>
+            </tr>
+            <tr>
+                <td>11:00</td>
+                <td>12:00</td>
+                <td><figure class="figureTablaLogoIberia"><img class="tablaLogoIberia" src="images/tablaLogoVuelingActivado.png" alt="Imagen del logo de Iberia"></figure></td>
+                <td>3</td>
+                <td><button class="botonSeleccionarActivado">Seleccionar</button></td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td>13:00</td>
+                <td><figure class="figureTablaLogoIberia"><img class="tablaLogoIberia" src="images/tablaLogoIberiaDesactivado.png" alt="Imagen del logo de Iberia"></figure></td>
+                <td>No</td>
+                <td><button class="botonSeleccionarDesactivado">Plazas agotadas</button></td>
+            </tr>
+            <tr>
+                <td>13:00</td>
+                <td>14:00</td>
+                <td><figure class="figureTablaLogoIberia"><img class="tablaLogoIberia" src="images/tablaLogoVuelingDesactivado.png" alt="Imagen del logo de Iberia"></figure></td>
+                <td>No</td>
+                <td><button class="botonSeleccionarDesactivado">Plazas agotadas</button></td>
+            </tr>
+            <tr>
+                <td>14:00</td>
+                <td>15:00</td>
+                <td><figure class="figureTablaLogoIberia"><img class="tablaLogoIberia" src="images/tablaLogoIberiaActivado.png" alt="Imagen del logo de Iberia"></figure></td>
+                <td>3</td>
+                <td><button class="botonSeleccionarActivado">Seleccionar</button></td>
+            </tr>
+            <tr>
+                <td>15:00</td>
+                <td>16:00</td>
+                <td><figure class="figureTablaLogoIberia"><img class="tablaLogoIberia" src="images/tablaLogoIberiaActivado.png" alt="Imagen del logo de Iberia"></figure></td>
+                <td>3</td>
+                <td><button class="botonSeleccionarActivado">Seleccionar</button></td>
+            </tr>
+            <tr>
+                <td>14:00</td>
+                <td>15:00</td>
+                <td><figure class="figureTablaLogoIberia"><img class="tablaLogoIberia" src="images/tablaLogoIberiaActivado.png" alt="Imagen del logo de Iberia"></figure></td>
+                <td>Disponibles</td>
+                <td><button class="botonSeleccionarActivado">Seleccionar</button></td>
+            </tr>
+            <tr>
+                <td>15:00</td>
+                <td>16:00</td>
+                <td><figure class="figureTablaLogoIberia"><img class="tablaLogoIberia" src="images/tablaLogoIberiaActivado.png" alt="Imagen del logo de Iberia"></figure></td>
+                <td>3</td>
+                <td><button class="botonSeleccionarActivado">Seleccionar</button></td>
+            </tr>
+         </table>
+
+       </div>
+     </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-contenido">
+            <figure class="footer-imagen">
+                <img src="images/logoIberia.png" alt="Imagen con el logo de Iberia">
+            </figure>
+            <div class="footer-ventaTelefonica">
+                <p class="ventaBilletes">Venta telefónica de billetes</p>
+                <h1>901 111 500</h1>
+                <p class="accesibilidad">Accesibilidad</p>
+            </div>
+        </div>
+        <div class="copiray">
+            <p>© Iberia 2016</p>
+        </div>
+    </footer>
+</body>
+</html>

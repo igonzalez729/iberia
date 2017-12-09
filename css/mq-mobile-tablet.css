@@ -1,0 +1,58 @@
+/* mobile/Table */
+
+@media screen and (min-width: 470px) {
+  .body {
+    font-size: 1em;
+  }
+  .cabecera-idioma1 {
+    display: none;
+  }
+  .cabecera-idioma {
+    display: inline;
+    width: 100%;
+    height: 33px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #898989;
+    font-size: 0.8em;
+  }
+  .idioma {
+    border: none;
+    background: #eeeeee;
+    width: 130px;
+  }
+  .ayuda-buscador-ayuda {
+    display: none;
+  }
+  .form-busqueda {
+    position: relative;
+    height: 30px;
+    width: 153px;
+    top: 4px;
+  }
+  .etiqueta, .buscador {
+    height: 100%;
+    width: 153px;
+    position: absolute;
+    left: 2px;
+    top: -4px;
+    background: transparent;
+    border: none;
+    text-indent: 5px;
+    line-height: 30px;
+  }
+  .buscador {
+    padding-right: 13px;
+  }
+  #lupaBuscador {
+    float: right;
+    top: 9px;
+  }
+  .acceso-registro a {
+    color: #898989;
+  }
+  .main h2 {
+    font-size: 1.5em;
+  }
+}
