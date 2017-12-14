@@ -55,4 +55,15 @@
   .main h2 {
     font-size: 1.5em;
   }
+  .footer {
+    margin: 68px 60px 35px 60px;
+    }
+  .footer-contenido {
+    padding: 20px 30px 20px 30px;
+  }
+  .footer-ventaTelefonica p {
+    color: white;
+    margin-bottom: 0px;
+    font-size: 0.9em;
+  }
 }
