@@ -42,6 +42,12 @@
     .menu .activado {
       display: none;
     }
+    .sub-menu {
+      display: inline;
+      position: inherit;
+      background-color: inherit;
+      font-size: 0.9em;
+    }
     .menu li{
       list-style: none;
       font-size: 1em;
@@ -52,11 +58,8 @@
       padding-left: 4px;
       padding-right: 4px;
     }
-    .sub-menu {
+    .menu li:hover > .sub-menu {
       display: inline;
-      position: inherit;
-      background-color: inherit;
-      font-size: 0.9em;
     }
     .menu-iberia-linea-vertical1 {
       border-right: 1px solid #7C7C7C;
